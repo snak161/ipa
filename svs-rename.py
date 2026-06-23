@@ -214,7 +214,7 @@ def second_pass_failed_scans(failed_files, input_dir):
 def main():
     input_dir = input("Enter folder with .SVS files: ").strip()
     if not os.path.isdir(input_dir):
-        print("❌ Invalid folder.")
+        print("Invalid folder.")
         return
 
     debug_dir = os.path.join(input_dir, "_debug")
